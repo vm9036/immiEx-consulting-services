@@ -1,3 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navcolor {
+  background-color: #ffffff;
+}
+
+.headerfont {
+  color: #575757;
+  font-size: 14px;
+}
+
+.btncolor {
+  background-color: #f12a02;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+h6 {
+  color: grey;
+}
+
+.vwcolor {
+  color: #2c3f69;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*statue of unity images  */
+.containerimg {
+  position: relative;
+  text-align: center;
+}
+
+.header-phone {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .header-phone {
+    display: block;
+  }
+}
+
 .img-hover-zoom{
     height: 95%;
     width: 100%;
@@ -16,4 +65,3 @@
     height: 178px;
     width: 206px;
 }
-
